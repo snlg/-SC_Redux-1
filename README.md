@@ -1,0 +1,3 @@
+# SC_Redux
+ First reading source code of Redux, There will be follow-up.....
+ 
