@@ -169,7 +169,7 @@ const thunkMiddleware = ({ dispatch, getState }) => {
 ```
 通过使用方法可以看到有3处柯里化函数的调用，`applyMiddleware` 函数`Redux` 最精髓的地方，成功的让`Redux` 有了极大的可拓展空间，在`action` 传递的过程中带来无数的“副作用”，虽然这往往也是麻烦所在。 这个`middleware`的洋葱模型思想是从`koa`的中间件拿过来的，用图来表示最直观。
 ### 洋葱模型
-![Alt text](./洋葱模型.png)
+![Image text](http://oy0oxkhrp.bkt.clouddn.com/%E6%B4%8B%E8%91%B1%E6%A8%A1%E5%9E%8B.png)
 我们来看源码:
 ### 源码
 ```javascript
